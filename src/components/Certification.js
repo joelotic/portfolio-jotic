@@ -211,8 +211,7 @@ const data7 = [
     tag: "Accreditation",
     date: { date: "23", month: "jun", year: "2021" },
     des: [
-      "Certified Agile Scrum Master (CASM)® certified individuals have the knowledge and understanding of the Scrum Framework required to allow them to successfully fill the Scrum Master role in Scrum teams along with Agile Knowledge.",
-      "The role of the Certified Agile Scrum Master (CASM)® in a software company is changing. No longer is it about driving people to achieve results. Now it is about enabling teams to be hyper-productive. But how can this be accomplished? Scrum, an agile framework, has been used successfully to build hyper-productive teams. What is Scrum? How can a manager build hyper-productive teams that outpace everyone else? In this talk you will hear exactly what Scrum is, its base components, and the traits required to help ensure success.",
+      "The Associate Reactive Developer exam focuses on the fundamentals of OutSystems reactive web and mobile application development. Targeted for developers who are new to OutSystems and develop simple reactive web and mobile applications. This is one of the first steps to kickstart your OutSystems journey as a certified developer.",
     ],
   },
   

@@ -29,7 +29,7 @@ const IndexVideoLight = () => {
       {/* Contact Section Starts */}
       <Contact />
       {/* Contact Section Ends */}
-      {/* Blog Section Starts */}
+      {/* Certification Section Starts */}
       <Certification />
     </Layouts>
   );

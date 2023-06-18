@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import About from "../src/components/About";
-import Blog from "../src/components/Blog";
-import Blog1 from "../src/components/Blog1";
+// import Blog from "../src/components/Blog";
+// import Blog1 from "../src/components/Blog1";
 import Certification from "../src/components/Certification";
 import Contact from "../src/components/Contact";
 import Home from "../src/components/Home";
@@ -25,10 +25,10 @@ const Index = () => {
       {/* Contact Section Starts */}
       <Contact />
       {/* Contact Section Ends */}
-      {/* Blog Section Starts */}
-      <Blog />
+      {/* Certification Section Starts */}
+      
       <Certification/>
-      {<Blog1/>}
+      
     </Layouts>
   );
 };

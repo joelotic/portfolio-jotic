@@ -5,7 +5,8 @@ const BackMobile = ({ changeMobileMenu, mobileMenu }) => {
       id="back-mobile"
       onClick={() => changeMobileMenu(false)}
     >
-      <i className="fa fa-arrow-left" />
+      <i className="fa fa-arrow-right" />
+      {/* joel */}
     </span>
   );
 };

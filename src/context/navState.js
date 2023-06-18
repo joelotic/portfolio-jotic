@@ -27,7 +27,7 @@ const navReducer = (state, action) => {
 const NavState = (props) => {
   const initialState = {
     nav: "home",
-    mobileMenu: false,
+    mobileMenu: true,
   };
   const [state, dispatch] = useReducer(navReducer, initialState);
 

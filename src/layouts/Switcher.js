@@ -46,9 +46,9 @@ const Switcher = () => {
             className="waves-effect waves-light btn font-weight-600 purchase hoverable"
           >
             {" "}
-            <span>
-              <i className="fa fa-shopping-cart" /> PURCHASE
-            </span>
+            {/* <span>
+              <i className="fa fa-shopping-cart" /> PURCHASE2
+            </span> */}
           </a>
           <div id="hideSwitcher" onClick={() => setToggle(false)}>
             ×

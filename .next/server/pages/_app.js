@@ -93,7 +93,7 @@ const navState_navReducer = (state, action)=>{
 const NavState = (props)=>{
     const initialState = {
         nav: "home",
-        mobileMenu: false
+        mobileMenu: true
     };
     const { 0: state , 1: dispatch  } = (0,external_react_.useReducer)(navState_navReducer, initialState);
     const changeNav = (value)=>{
@@ -129,7 +129,7 @@ const PreLoader = ()=>{
     (0,external_react_.useEffect)(()=>{
         setTimeout(()=>{
             setLoaded(true);
-        }, 2000);
+        }, 1000);
     });
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         className: `preloader ${loaded ? "loaded" : ""}`,

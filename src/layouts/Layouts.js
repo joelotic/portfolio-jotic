@@ -5,7 +5,7 @@ import NavContext from "../context/navContext";
 import useWindowSize from "../useWindowSize";
 import BackMobile from "./BackMobile";
 import Header from "./Header";
-import Switcher from "./Switcher";
+// import Switcher from "./Switcher";
 
 const Layouts = ({ children, bodyCls, extraPage, light }) => {
   useEffect(() => {
@@ -33,7 +33,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
         <title>Joel Otic - Personal Portfolio</title>
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>
-        <Switcher />
+        {/* <Switcher /> joel*/}  
         {/* Header Starts */}
         {!extraPage && <Header light={light} />}
         {/* Main Content Starts */}{" "}
