@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/VI2NBIJXEAxTAKCUzg5CG/_buildManifest.js",
-    "static/VI2NBIJXEAxTAKCUzg5CG/_ssgManifest.js"
+    "static/gKZzchNBQfHXEnAFdHm0Z/_buildManifest.js",
+    "static/gKZzchNBQfHXEnAFdHm0Z/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,7 +15,7 @@
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-5ae059702bc551aa.js",
       "static/chunks/539-c9bb756418cdcdce.js",
-      "static/chunks/650-2c8d96ca85257e48.js",
+      "static/chunks/650-c8fe663624f6d023.js",
       "static/chunks/pages/index-d6d44114fa0f814f.js"
     ],
     "/_app": [
@@ -55,7 +55,7 @@
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-5ae059702bc551aa.js",
       "static/chunks/539-c9bb756418cdcdce.js",
-      "static/chunks/650-2c8d96ca85257e48.js",
+      "static/chunks/650-c8fe663624f6d023.js",
       "static/chunks/pages/index-image-overlay-356ec30c0628d43e.js"
     ],
     "/index-left-image-dark": [
@@ -63,7 +63,7 @@
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-5ae059702bc551aa.js",
       "static/chunks/539-c9bb756418cdcdce.js",
-      "static/chunks/650-2c8d96ca85257e48.js",
+      "static/chunks/650-c8fe663624f6d023.js",
       "static/chunks/pages/index-left-image-dark-77027dea1c0b1c50.js"
     ],
     "/index-left-image-light": [
@@ -71,7 +71,7 @@
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-5ae059702bc551aa.js",
       "static/chunks/539-c9bb756418cdcdce.js",
-      "static/chunks/650-2c8d96ca85257e48.js",
+      "static/chunks/650-c8fe663624f6d023.js",
       "static/chunks/pages/index-left-image-light-d75e9984e2d40e6f.js"
     ],
     "/index-video-dark": [
@@ -79,7 +79,7 @@
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-5ae059702bc551aa.js",
       "static/chunks/539-c9bb756418cdcdce.js",
-      "static/chunks/650-2c8d96ca85257e48.js",
+      "static/chunks/650-c8fe663624f6d023.js",
       "static/chunks/pages/index-video-dark-37180a238d9f869f.js"
     ],
     "/index-video-light": [
@@ -87,7 +87,7 @@
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-5ae059702bc551aa.js",
       "static/chunks/539-c9bb756418cdcdce.js",
-      "static/chunks/650-2c8d96ca85257e48.js",
+      "static/chunks/650-c8fe663624f6d023.js",
       "static/chunks/pages/index-video-light-c7a56e76703f6334.js"
     ]
   },

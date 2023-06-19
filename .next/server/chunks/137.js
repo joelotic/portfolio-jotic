@@ -112,7 +112,7 @@ const About = ()=>{
                                                             className: "font-weight-600",
                                                             children: "BirthYear"
                                                         }),
-                                                        "1981 1990"
+                                                        "1981"
                                                     ]
                                                 })
                                             }),
