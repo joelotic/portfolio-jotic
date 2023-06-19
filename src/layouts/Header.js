@@ -4,10 +4,10 @@ import useClickOutside from "../useClickOutside";
 import useWindowSize from "../useWindowSize";
 
 const menus = [
-  { icon: "fa fa-home", dkMenuName: "Home", name: "Home", id: "home" },
+  { icon: "fa fa-homex", dkMenuName: "Home", name: "Home", id: "home" },
   { icon: "fa fa-user", dkMenuName: "About", name: "About me", id: "about" },
   {
-    icon: "fa fa-home",
+    icon: "fa fa-homex",
     dkMenuName: "Portfolio",
     name: "my Portfolio",
     id: "work",
@@ -18,7 +18,12 @@ const menus = [
     name: "get in touch",
     id: "contact",
   },
-  { icon: "fa fa-briefcase", dkMenuName: "certification", name: "my certification", id: "certification" },
+  {
+    icon: "fa fa-cloud",
+    dkMenuName: "certification",
+    name: "my certification",
+    id: "certification",
+  },
 ];
 
 const Header = ({ light }) => {

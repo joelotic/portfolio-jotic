@@ -85,7 +85,7 @@ const BackMobile = ({ changeMobileMenu , mobileMenu  })=>{
         id: "back-mobile",
         onClick: ()=>changeMobileMenu(false),
         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-            className: "fa fa-arrow-right"
+            className: "fa fa-arrow-left"
         })
     });
 };
@@ -118,7 +118,7 @@ let useClickOutside = (handler)=>{
 
 const menus = [
     {
-        icon: "fa fa-home",
+        icon: "fa fa-homex",
         dkMenuName: "Home",
         name: "Home",
         id: "home"
@@ -130,7 +130,7 @@ const menus = [
         id: "about"
     },
     {
-        icon: "fa fa-home",
+        icon: "fa fa-homex",
         dkMenuName: "Portfolio",
         name: "my Portfolio",
         id: "work"
@@ -142,7 +142,7 @@ const menus = [
         id: "contact"
     },
     {
-        icon: "fa fa-briefcase",
+        icon: "fa fa-cloud",
         dkMenuName: "certification",
         name: "my certification",
         id: "certification"
