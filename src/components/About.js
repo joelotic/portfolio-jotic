@@ -116,7 +116,7 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">Others</span>
-                    tofollow
+                    tofollow-2
                   </h6>
                 </li>
               </ul>
