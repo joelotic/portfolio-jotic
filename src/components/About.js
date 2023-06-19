@@ -1,15 +1,14 @@
 import { useContext } from "react";
 import NavContext from "../context/navContext";
 const About = () => {
-
   function handleDownload() {
     // Replace 'file_url' with the actual URL of your CV file
-    const fileUrl = 'img/fullscreendark.jpg';
-  
-    const link = document.createElement('a');
+    const fileUrl = "img/fullscreendark.jpg";
+
+    const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = 'fullscreendark-cv.jpg'; // Specify the filename for the downloaded file
-  
+    link.download = "fullscreendark-cv.jpg"; // Specify the filename for the downloaded file
+
     // Simulate a click on the link to trigger the download
     link.click();
   }
@@ -39,9 +38,9 @@ const About = () => {
               />
             </div>
             <p className="d-block d-md-none">
-            {`I'm`} a fullstack software engineer based in Singapore,
-            England. I strives to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design.
+              {`I'm`} a fullstack software engineer based in Singapore, I
+              strives to build immersive and beautiful web applications through
+              carefully crafted code and user-centric design.
             </p>
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">
@@ -61,8 +60,7 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">BirthYear</span>1981
-                    1990
+                    <span className="font-weight-600">BirthYear</span>1981 1990
                   </h6>
                 </li>
                 <li>
@@ -163,12 +161,15 @@ const About = () => {
                       <span className="d-block font-weight-400 uppercase">
                         software engineer
                         <span className="separator" />
-                        <span className="font-weight-700">I-magination Solution PTE LTD</span>
+                        <span className="font-weight-700">
+                          I-magination Solution PTE LTD
+                        </span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        System Integrator/Vendor with a vast projects in Singapore Government
+                        System Integrator/Vendor with a vast projects in
+                        Singapore Government
                       </p>
                     </div>
                   </div>
@@ -187,13 +188,13 @@ const About = () => {
                       <span className="d-block font-weight-400 uppercase">
                         Production Support Supervisor/software engineer
                         <span className="separator" />
-                        <span className="font-weight-700">Eastern Telecommunications</span>
+                        <span className="font-weight-700">
+                          Eastern Telecommunications
+                        </span>
                       </span>
                     </div>
                     <div className="card-body">
-                      <p>
-                        Telecommunications industry 
-                      </p>
+                      <p>Telecommunications industry</p>
                     </div>
                   </div>
                 </div>
@@ -215,9 +216,7 @@ const About = () => {
                       </span>
                     </div>
                     <div className="card-body">
-                      <p>
-                        PHP and Java programming for School ID System
-                      </p>
+                      <p>PHP and Java programming for School ID System</p>
                     </div>
                   </div>
                 </div>
