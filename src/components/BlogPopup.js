@@ -1,7 +1,7 @@
 const BlogPopup = ({ open, close, data }) => {
   return (
     <div className="modal__container">
-      <div className={`istambul_tm_modalbox ${open ? "opened" : ""}`}>
+      <div className={`joeloticdev_tm_modalbox ${open ? "opened" : ""}`}>
         <div className="box_inner">
           <div className="close">
             <a href="#" onClick={() => close()}>
