@@ -26,9 +26,8 @@ const Index = () => {
       <Contact />
       {/* Contact Section Ends */}
       {/* Certification Section Starts */}
-      
-      <Certification/>
-      
+
+      <Certification />
     </Layouts>
   );
 };
