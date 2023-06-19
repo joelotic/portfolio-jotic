@@ -1,7 +1,7 @@
 ﻿/*
 Template Name: Joel Otic - Personal Portfolio
-Author: Celtano
-Author URI: http://themeforest.net/user/celtano
+Author: Joel Otic
+Author URI:tofollow
 Description: Joel Otic - Personal Portfolio
 Version: 1.0
 */
@@ -1187,14 +1187,25 @@ div.container.page-title {
 ================================================== */
 
 /*** Text Rotator ***/
-
+/* margin-left:50vw; */
+/* .main-text-container {
+  height: 100%;
+  width: 100%;
+  display: table;
+  margin-left: 0 auto;
+  max-width: 550px;
+} */
 .main-text-container {
   height: 100%;
   width: 100%;
   display: table;
-  margin-left: 50vw;
+  margin: 0;
+  position: relative;
+  left: 10%;
+  transform: translateX(-10%);
   max-width: 550px;
 }
+
 
 .main-text {
   z-index: 13;

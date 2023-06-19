@@ -31,8 +31,8 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <h3>Hi there !</h3>
           <AnimationText />
           <p>
-            {`I'm`} a fullstack software engineer based in Singapore,
-            England. I strives to build immersive and beautiful web applications
+            {`I'm`} a fullstack software engineer based in Singapore
+            . I strives to build immersive and beautiful web applications
             through carefully crafted code and user-centric design.
           </p>
           <div className="call-to-actions-home">
