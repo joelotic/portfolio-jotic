@@ -60,7 +60,7 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">BirthYear</span>1981 1990
+                    <span className="font-weight-600">BirthYear</span>1981
                   </h6>
                 </li>
                 <li>
