@@ -1,7 +1,9 @@
 import { Fragment, useContext, useState } from "react";
 import NavContext from "../context/navContext";
 import CertificationPopup from "./CertificationPopup";
-{/* big data */}
+{
+  /* big data */
+}
 const data1 = [
   {
     title: "PCAP™ – Certified Associate in Python Programming",
@@ -26,6 +28,17 @@ const data1 = [
     ],
   },
   {
+    title: "Tableau Desktop Specialist",
+    img: "certificate/bigdata/tableau-desktop-specialist.jpg",
+    tag: "Accreditation",
+    date: { date: "23", month: "jun", year: "2021" },
+    des: [
+      "Candidates for this certification deliver actionable insights by working with available data and applying domain expertise. They provide meaningful business value through easy-to-comprehend data visualizations, enable others to perform self-service analytics, and deploy and configure solutions for consumption.",
+      "The Power BI data analyst works closely with business stakeholders to identify business requirements. They collaborate with enterprise data analysts and data engineers to identify and acquire data. They also transform the data, create data models, visualize data, and share assets by using Power BI.",
+      "Candidates for this certification should be proficient at using Power Query and writing expressions by using Data Analysis Expressions (DAX). These professionals know how to assess data quality. Plus, they understand data security, including row-level security and data sensitivity.",
+    ],
+  },
+  {
     title: "Microsoft® Power bi data analyst",
     img: "certificate/bigdata/microsoft-power-Bi-data-analyst.jpg",
     tag: "Accreditation",
@@ -37,7 +50,9 @@ const data1 = [
     ],
   },
 ];
-{/* cloud */}
+{
+  /* cloud */
+}
 const data2 = [
   {
     title: "AWS Certified cloud practitioner",
@@ -65,9 +80,9 @@ const data2 = [
     tag: "Accreditation",
     date: { date: "23", month: "jun", year: "2021" },
     des: [
-    "The AWS Certified DevOps Engineer - Professional showcases individuals’ technical expertise in provisioning, operating, and managing distributed application systems on the AWS platform, giving them increased confidence and credibility with peers, stakeholders, and customers. Organizations with these qualified professionals can ensure speedy delivery of secure, compliant, systems that are highly available and scalable.",
-    "The AWS Certified DevOps Engineer - Professional (DOP-C02) exam is intended for individuals who perform a DevOps engineer role. The exam validates a candidate’s technical expertise in provisioning, operating, and managing distributed systems and services on AWS..",
-   ],
+      "The AWS Certified DevOps Engineer - Professional showcases individuals’ technical expertise in provisioning, operating, and managing distributed application systems on the AWS platform, giving them increased confidence and credibility with peers, stakeholders, and customers. Organizations with these qualified professionals can ensure speedy delivery of secure, compliant, systems that are highly available and scalable.",
+      "The AWS Certified DevOps Engineer - Professional (DOP-C02) exam is intended for individuals who perform a DevOps engineer role. The exam validates a candidate’s technical expertise in provisioning, operating, and managing distributed systems and services on AWS..",
+    ],
   },
   {
     title: "AWS Certified developer certificate",
@@ -80,7 +95,9 @@ const data2 = [
     ],
   },
 ];
-{/* database */}
+{
+  /* database */
+}
 const data3 = [
   {
     title: "Oracle Advanced PLSQL Developer Certified Professional",
@@ -117,9 +134,7 @@ const data3 = [
     img: "certificate/database/MSSQL2008-database-developer.jpg",
     tag: "Accreditation",
     date: { date: "23", month: "jun", year: "2021" },
-    des: [
-      "Writing Queries Using Microsoft SQL Server 2008 Transact-SQL",
-    ],
+    des: ["Writing Queries Using Microsoft SQL Server 2008 Transact-SQL"],
   },
   {
     title: "Microsoft® MSSQL2008 Database administrator",
@@ -131,7 +146,8 @@ const data3 = [
     ],
   },
   {
-    title: "Microsoft® Certified Technology Specialist: SQL Server 2008, Implementation and Maintenance",
+    title:
+      "Microsoft® Certified Technology Specialist: SQL Server 2008, Implementation and Maintenance",
     img: "certificate/database/MSSQL2008-technology-specialist.jpg",
     tag: "Accreditation",
     date: { date: "23", month: "jun", year: "2021" },
@@ -140,7 +156,9 @@ const data3 = [
     ],
   },
 ];
-{/* java programming */}
+{
+  /* java programming */
+}
 const data4 = [
   {
     title: "Oracle Certified Associate- Java SE 8 Programmer Certificate",
@@ -163,7 +181,9 @@ const data4 = [
     ],
   },
 ];
-{/* microsoft programming */}
+{
+  /* microsoft programming */
+}
 const data5 = [
   {
     title: "Microsoft® Certified Professional Developer: Windows Developer 4",
@@ -187,9 +207,10 @@ const data5 = [
       "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
     ],
   },
- 
 ];
-{/* agile scrum */}
+{
+  /* agile scrum */
+}
 const data6 = [
   {
     title: "scrum master",
@@ -201,9 +222,10 @@ const data6 = [
       "The role of the Certified Agile Scrum Master (CASM)® in a software company is changing. No longer is it about driving people to achieve results. Now it is about enabling teams to be hyper-productive. But how can this be accomplished? Scrum, an agile framework, has been used successfully to build hyper-productive teams. What is Scrum? How can a manager build hyper-productive teams that outpace everyone else? In this talk you will hear exactly what Scrum is, its base components, and the traits required to help ensure success.",
     ],
   },
-  
 ];
-{/* low code system*/}
+{
+  /* low code system*/
+}
 const data7 = [
   {
     title: "outsystems developer",
@@ -214,7 +236,6 @@ const data7 = [
       "The Associate Reactive Developer exam focuses on the fundamentals of OutSystems reactive web and mobile application development. Targeted for developers who are new to OutSystems and develop simple reactive web and mobile applications. This is one of the first steps to kickstart your OutSystems journey as a certified developer.",
     ],
   },
-  
 ];
 const Certification = () => {
   const { nav } = useContext(NavContext);
@@ -226,8 +247,15 @@ const Certification = () => {
   };
   return (
     <Fragment>
-      <CertificationPopup open={modal} close={() => setModal(false)} data={activeData} />
-      <section id="certification" className={`${nav === "certification" ? "active" : ""}`}>
+      <CertificationPopup
+        open={modal}
+        close={() => setModal(false)}
+        data={activeData}
+      />
+      <section
+        id="certification"
+        className={`${nav === "certification" ? "active" : ""}`}
+      >
         <div className="container page-title text-center">
           <h2 className="text-center">
             it <span>certifications</span>
@@ -237,11 +265,11 @@ const Certification = () => {
           </span> */}
         </div>
 
-{/* big data */}
+        {/* big data */}
         <div className="col-xl-9 col-lg-9 col-md-9">
-              <h2 className="font-weight-600 uppercase title-section">
-                big data/analytics
-              </h2>
+          <h2 className="font-weight-600 uppercase title-section">
+            big data/analytics
+          </h2>
         </div>
 
         <div className="container">
@@ -251,7 +279,7 @@ const Certification = () => {
                 <article>
                   {/* Figure Starts */}
                   <figure className="blog-figure">
-                    <a href="#" onClick={() => onClick(data1,i)}>
+                    <a href="#" onClick={() => onClick(data1, i)}>
                       <img className="img-fluid" src={data1.img} alt="" />
                     </a>
                     <div className="post-date">
@@ -261,7 +289,7 @@ const Certification = () => {
                     </div>
                   </figure>
                   {/* Figure Ends */}
-                  <a href="#" onClick={() => onClick(data1,i)}>
+                  <a href="#" onClick={() => onClick(data1, i)}>
                     <h4>{data1.title}</h4>
                   </a>
                   {/* Excerpt Starts */}
@@ -269,26 +297,22 @@ const Certification = () => {
                     <p>{data1.des[0].substring(0, 92)}... </p>
                     <a
                       href="#"
-                      onClick={() => onClick(data1,i)}
+                      onClick={() => onClick(data1, i)}
                       className="btn readmore"
                     >
                       <span>Read more</span>
-                      
                     </a>
-                   
                   </div>
                   {/* Excerpt Ends */}
                 </article>
               </div>
             ))}
-            <br/>
+            <br />
           </div>
         </div>
-{/* cloud */}
+        {/* cloud */}
         <div className="col-xl-9 col-lg-9 col-md-9">
-              <h2 className="font-weight-600 uppercase title-section">
-                cloud
-              </h2>
+          <h2 className="font-weight-600 uppercase title-section">cloud</h2>
         </div>
 
         <div className="container">
@@ -298,7 +322,7 @@ const Certification = () => {
                 <article>
                   {/* Figure Starts */}
                   <figure className="blog-figure">
-                    <a href="#" onClick={() => onClick(data2,i)}>
+                    <a href="#" onClick={() => onClick(data2, i)}>
                       <img className="img-fluid" src={data2.img} alt="" />
                     </a>
                     <div className="post-date">
@@ -308,7 +332,7 @@ const Certification = () => {
                     </div>
                   </figure>
                   {/* Figure Ends */}
-                  <a href="#" onClick={() => onClick(data2,i)}>
+                  <a href="#" onClick={() => onClick(data2, i)}>
                     <h4>{data2.title}</h4>
                   </a>
                   {/* Excerpt Starts */}
@@ -316,26 +340,22 @@ const Certification = () => {
                     <p>{data2.des[0].substring(0, 92)}... </p>
                     <a
                       href="#"
-                      onClick={() => onClick(data2,i)}
+                      onClick={() => onClick(data2, i)}
                       className="btn readmore"
                     >
                       <span>Read more</span>
-                      
                     </a>
-                   
                   </div>
                   {/* Excerpt Ends */}
                 </article>
               </div>
             ))}
-            <br/>
+            <br />
           </div>
         </div>
-{/* database */}
+        {/* database */}
         <div className="col-xl-9 col-lg-9 col-md-9">
-              <h2 className="font-weight-600 uppercase title-section">
-                database
-              </h2>
+          <h2 className="font-weight-600 uppercase title-section">database</h2>
         </div>
 
         <div className="container">
@@ -345,7 +365,7 @@ const Certification = () => {
                 <article>
                   {/* Figure Starts */}
                   <figure className="blog-figure">
-                    <a href="#" onClick={() => onClick(data3,i)}>
+                    <a href="#" onClick={() => onClick(data3, i)}>
                       <img className="img-fluid" src={data3.img} alt="" />
                     </a>
                     <div className="post-date">
@@ -355,7 +375,7 @@ const Certification = () => {
                     </div>
                   </figure>
                   {/* Figure Ends */}
-                  <a href="#" onClick={() => onClick(data3,i)}>
+                  <a href="#" onClick={() => onClick(data3, i)}>
                     <h4>{data3.title}</h4>
                   </a>
                   {/* Excerpt Starts */}
@@ -363,27 +383,25 @@ const Certification = () => {
                     <p>{data3.des[0].substring(0, 92)}... </p>
                     <a
                       href="#"
-                      onClick={() => onClick(data3,i)}
+                      onClick={() => onClick(data3, i)}
                       className="btn readmore"
                     >
                       <span>Read more</span>
-                      
                     </a>
-                   
                   </div>
                   {/* Excerpt Ends */}
                 </article>
               </div>
             ))}
-            <br/>
+            <br />
           </div>
         </div>
 
-{/* java programming */}
+        {/* java programming */}
         <div className="col-xl-9 col-lg-9 col-md-9">
-              <h2 className="font-weight-600 uppercase title-section">
-              java programming
-              </h2>
+          <h2 className="font-weight-600 uppercase title-section">
+            java programming
+          </h2>
         </div>
 
         <div className="container">
@@ -393,7 +411,7 @@ const Certification = () => {
                 <article>
                   {/* Figure Starts */}
                   <figure className="blog-figure">
-                    <a href="#" onClick={() => onClick(data4,i)}>
+                    <a href="#" onClick={() => onClick(data4, i)}>
                       <img className="img-fluid" src={data4.img} alt="" />
                     </a>
                     <div className="post-date">
@@ -403,7 +421,7 @@ const Certification = () => {
                     </div>
                   </figure>
                   {/* Figure Ends */}
-                  <a href="#" onClick={() => onClick(data4,i)}>
+                  <a href="#" onClick={() => onClick(data4, i)}>
                     <h4>{data4.title}</h4>
                   </a>
                   {/* Excerpt Starts */}
@@ -411,27 +429,25 @@ const Certification = () => {
                     <p>{data4.des[0].substring(0, 92)}... </p>
                     <a
                       href="#"
-                      onClick={() => onClick(data4,i)}
+                      onClick={() => onClick(data4, i)}
                       className="btn readmore"
                     >
                       <span>Read more</span>
-                      
                     </a>
-                   
                   </div>
                   {/* Excerpt Ends */}
                 </article>
               </div>
             ))}
-            <br/>
+            <br />
           </div>
         </div>
 
-{/* microsoft programming */}
-      <div className="col-xl-9 col-lg-9 col-md-9">
-              <h2 className="font-weight-600 uppercase title-section">
-              microsoft programming
-              </h2>
+        {/* microsoft programming */}
+        <div className="col-xl-9 col-lg-9 col-md-9">
+          <h2 className="font-weight-600 uppercase title-section">
+            microsoft programming
+          </h2>
         </div>
 
         <div className="container">
@@ -441,7 +457,7 @@ const Certification = () => {
                 <article>
                   {/* Figure Starts */}
                   <figure className="blog-figure">
-                    <a href="#" onClick={() => onClick(data5,i)}>
+                    <a href="#" onClick={() => onClick(data5, i)}>
                       <img className="img-fluid" src={data5.img} alt="" />
                     </a>
                     <div className="post-date">
@@ -451,7 +467,7 @@ const Certification = () => {
                     </div>
                   </figure>
                   {/* Figure Ends */}
-                  <a href="#" onClick={() => onClick(data5,i)}>
+                  <a href="#" onClick={() => onClick(data5, i)}>
                     <h4>{data5.title}</h4>
                   </a>
                   {/* Excerpt Starts */}
@@ -459,27 +475,25 @@ const Certification = () => {
                     <p>{data5.des[0].substring(0, 92)}... </p>
                     <a
                       href="#"
-                      onClick={() => onClick(data5,i)}
+                      onClick={() => onClick(data5, i)}
                       className="btn readmore"
                     >
                       <span>Read more</span>
-                      
                     </a>
-                   
                   </div>
                   {/* Excerpt Ends */}
                 </article>
               </div>
             ))}
-            <br/>
+            <br />
           </div>
         </div>
 
-{/* agile scrum */}
+        {/* agile scrum */}
         <div className="col-xl-9 col-lg-9 col-md-9">
-              <h2 className="font-weight-600 uppercase title-section">
-                agile scrum
-              </h2>
+          <h2 className="font-weight-600 uppercase title-section">
+            agile scrum
+          </h2>
         </div>
 
         <div className="container">
@@ -489,7 +503,7 @@ const Certification = () => {
                 <article>
                   {/* Figure Starts */}
                   <figure className="blog-figure">
-                    <a href="#" onClick={() => onClick(data6,i)}>
+                    <a href="#" onClick={() => onClick(data6, i)}>
                       <img className="img-fluid" src={data6.img} alt="" />
                     </a>
                     <div className="post-date">
@@ -499,7 +513,7 @@ const Certification = () => {
                     </div>
                   </figure>
                   {/* Figure Ends */}
-                  <a href="#" onClick={() => onClick(data6,i)}>
+                  <a href="#" onClick={() => onClick(data6, i)}>
                     <h4>{data6.title}</h4>
                   </a>
                   {/* Excerpt Starts */}
@@ -507,27 +521,25 @@ const Certification = () => {
                     <p>{data6.des[0].substring(0, 92)}... </p>
                     <a
                       href="#"
-                      onClick={() => onClick(data6,i)}
+                      onClick={() => onClick(data6, i)}
                       className="btn readmore"
                     >
                       <span>Read more</span>
-                      
                     </a>
-                   
                   </div>
                   {/* Excerpt Ends */}
                 </article>
               </div>
             ))}
-            <br/>
+            <br />
           </div>
         </div>
 
-{/* low code system */}
-<div className="col-xl-9 col-lg-9 col-md-9">
-              <h2 className="font-weight-600 uppercase title-section">
-                outsystems
-              </h2>
+        {/* low code system */}
+        <div className="col-xl-9 col-lg-9 col-md-9">
+          <h2 className="font-weight-600 uppercase title-section">
+            outsystems
+          </h2>
         </div>
 
         <div className="container">
@@ -537,7 +549,7 @@ const Certification = () => {
                 <article>
                   {/* Figure Starts */}
                   <figure className="blog-figure">
-                    <a href="#" onClick={() => onClick(data7,i)}>
+                    <a href="#" onClick={() => onClick(data7, i)}>
                       <img className="img-fluid" src={data7.img} alt="" />
                     </a>
                     <div className="post-date">
@@ -547,7 +559,7 @@ const Certification = () => {
                     </div>
                   </figure>
                   {/* Figure Ends */}
-                  <a href="#" onClick={() => onClick(data7,i)}>
+                  <a href="#" onClick={() => onClick(data7, i)}>
                     <h4>{data7.title}</h4>
                   </a>
                   {/* Excerpt Starts */}
@@ -555,19 +567,17 @@ const Certification = () => {
                     <p>{data7.des[0].substring(0, 92)}... </p>
                     <a
                       href="#"
-                      onClick={() => onClick(data7,i)}
+                      onClick={() => onClick(data7, i)}
                       className="btn readmore"
                     >
                       <span>Read more</span>
-                      
                     </a>
-                   
                   </div>
                   {/* Excerpt Ends */}
                 </article>
               </div>
             ))}
-            <br/>
+            <br />
           </div>
         </div>
       </section>
