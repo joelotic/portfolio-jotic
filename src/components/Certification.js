@@ -33,9 +33,10 @@ const data1 = [
     tag: "Accreditation",
     date: { date: "23", month: "jun", year: "2021" },
     des: [
-      "Candidates for this certification deliver actionable insights by working with available data and applying domain expertise. They provide meaningful business value through easy-to-comprehend data visualizations, enable others to perform self-service analytics, and deploy and configure solutions for consumption.",
-      "The Power BI data analyst works closely with business stakeholders to identify business requirements. They collaborate with enterprise data analysts and data engineers to identify and acquire data. They also transform the data, create data models, visualize data, and share assets by using Power BI.",
-      "Candidates for this certification should be proficient at using Power Query and writing expressions by using Data Analysis Expressions (DAX). These professionals know how to assess data quality. Plus, they understand data security, including row-level security and data sensitivity.",
+      "This exam is for those who have foundational skills and understanding of Tableau Desktop and at least three months of applying this understanding in the product. Be sure to review the details of the full Tableau Desktop Specialist Exam Prep Guide before registerin.",
+      "The Tableau Desktop Specialist certification is intended for individuals who have foundational knowledge and skills related to Tableau Desktop.",
+      "This credential validates core Tableau knowledge of employees, partners, customers, and freelancers, who need to work with Tableau Desktop",
+      "There are no prerequisites for the exam. Upon successful completion of this exam, candidates are awarded the title of Tableau Desktop Specialist. This title does not expire.",
     ],
   },
   {
